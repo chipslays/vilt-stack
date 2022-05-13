@@ -35,7 +35,6 @@ createInertiaApp({
             }
         );
 
-        // app.config.globalProperties.$socket = socket;
         app.config.globalProperties.$alpine = window.Alpine;
 
         await app.mount(el);
