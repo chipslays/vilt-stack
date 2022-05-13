@@ -1,7 +1,11 @@
 <template>
     <div class="mt-4 space-x-4">
-        <Link :href="route('welcome')"> Welcome </Link>
-        <Link :href="route('about')"> About </Link>
+        <Link :href="route('welcome')">
+            Welcome
+        </Link>
+        <Link :href="route('about')">
+            About
+        </Link>
     </div>
 </template>
 
@@ -15,5 +19,4 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-
 </style>
