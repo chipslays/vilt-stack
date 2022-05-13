@@ -7,7 +7,7 @@
 </p>
 
 ## Features
-- [Vue.js 3](https://vuejs.org/)
+- [Vue.js 3](https://vuejs.org/) ([Pinia](https://pinia.vuejs.org/))
 - [Inertia.js](https://inertiajs.com/)
 - [Laravel 9](https://laravel.com/)
 - [TailwindCSS](https://tailwindcss.com/) ([Typography](https://github.com/tailwindlabs/tailwindcss-typography), [Forms](https://github.com/tailwindlabs/tailwindcss-forms), [Animate](https://github.com/jamiebuilds/tailwindcss-animate))
@@ -27,3 +27,5 @@
 1. `npm run watch`
 2. `php artisan serve`
 3. Go to http://localhost:8000
+
+Happy coding!
