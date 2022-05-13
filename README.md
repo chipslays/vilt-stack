@@ -28,4 +28,6 @@
 2. `php artisan serve`
 3. Go to http://localhost:8000
 
-Happy coding!
+```php
+echo 'Happy coding!';
+```
