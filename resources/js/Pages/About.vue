@@ -4,7 +4,7 @@
             <Logo />
             <Navbar />
             <p class="mt-4 font-mono text-base text-gray-500 uppercase">
-                VueJS + InertiaJS + Laravel + TailwindCSS = VILT ❤️
+                Vue.js + Inertia.js + Laravel + TailwindCSS = VILT ❤️
             </p>
         </div>
     </div>

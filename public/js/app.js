@@ -24939,7 +24939,7 @@ var _hoisted_2 = {
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "mt-4 font-mono text-base text-gray-500 uppercase"
-}, " VueJS + InertiaJS + Laravel + TailwindCSS = VILT ❤️ ", -1
+}, " Vue.js + Inertia.js + Laravel + TailwindCSS = VILT ❤️ ", -1
 /* HOISTED */
 );
 
