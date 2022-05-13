@@ -1,6 +1,10 @@
-# VILT Stack
+<p align="center">
+    <img width="520" height="300" src="https://user-images.githubusercontent.com/19103498/168252945-638b8584-149e-4399-b7b6-a42306b39158.png">
+</p>
 
-An easy way to start developing with the VILT stack.
+<p align="center">
+    An easy way to start developing with the VILT stack.
+</p>
 
 ## Features
 - [Vue.js 3](https://vuejs.org/)
