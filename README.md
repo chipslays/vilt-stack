@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-    An easy way to start developing with the VILT stack.
+    An easy way to start developing with the VILT stack*.
 </p>
 
 ## Features
