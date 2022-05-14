@@ -4,7 +4,7 @@ import { createApp, h } from 'vue';
 import { createPinia } from 'pinia';
 import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
-import Layout from './Shared/Layout';
+import Layout from '@/Shared/Layout';
 
 createInertiaApp({
     title: title => title,
