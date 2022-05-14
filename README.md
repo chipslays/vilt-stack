@@ -38,6 +38,13 @@
 php install.php
 ```
 
+#### Use Laravel Breeze instead of this shit 🤟
+
+1. `composer create-project laravel/laravel vilt-stack && cd vilt-stack`
+2. `composer require laravel/breeze --dev`
+3. `php artisan breeze:install vue --inertia` (add `--ssr` for SSR instead of SPA)
+4. `npm install`
+
 ## Development
 
 1. `npm run watch`
