@@ -24,11 +24,19 @@
 
 ## Installation
 
+#### Manual installation:
+
 1. Clone this repo
 2. `composer install`
 3. `npm install`
 4. `cp .env.example .env`
 5. `php artisan key:generate`
+
+#### Installation using a script:
+
+```bash
+php install.php
+```
 
 ## Development
 
