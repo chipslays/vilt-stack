@@ -1,8 +1,10 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors')
 
 module.exports = {
     content: [
-        './resources/**/*.{js,vue,blade.php}'
+        './resources/**/*.{js,vue,blade.php}',
+        './storage/framework/views/*.php',
     ],
     safelist: [],
     mode: false,
@@ -10,7 +12,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                'sans': ['Rubik', 'sans-serif'],
+                'sans': ['Rubik', ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 gray: colors.zinc,
