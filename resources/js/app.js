@@ -6,13 +6,6 @@ import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
 import Layout from './Shared/Layout';
 
-InertiaProgress.init({
-    delay: 250,
-    color: '#000',
-    includeCSS: true,
-    showSpinner: false,
-});
-
 createInertiaApp({
     title: title => title,
     resolve: name => {
@@ -41,4 +34,11 @@ createInertiaApp({
 
         return app;
     },
+});
+
+InertiaProgress.init({
+    delay: 250,
+    color: '#000',
+    includeCSS: true,
+    showSpinner: false,
 });
