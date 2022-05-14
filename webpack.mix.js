@@ -16,8 +16,13 @@ mix.js('resources/js/app.js', 'public/js')
         version: 3
     })
     .postCss('resources/css/app.css', 'public/css', [
-        require("tailwindcss"),
-    ]);
+        require('postcss-import'),
+        require('tailwindcss'),
+        require('autoprefixer'),
+    ])
+    .alias({
+        '@': 'resources/js',
+    });
 
 mix.webpackConfig({
     module: {
@@ -35,9 +40,9 @@ mix.webpackConfig({
             ]
         }],
     },
-    // stats: {
-    //     children: true
-    // },
+    stats: {
+        children: true
+    },
 });
 
 mix.disableNotifications();
