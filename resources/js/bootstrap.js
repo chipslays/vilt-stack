@@ -1,10 +1,17 @@
 import Alpine from 'alpinejs';
+import collapse from '@alpinejs/collapse';
+import mask from '@alpinejs/mask';
 
 window.Alpine = Alpine;
 Alpine.start();
 
-window._ = require('lodash');
+/** @see https://alpinejs.dev/plugins/collapse */
+Alpine.plugin(collapse)
 
+/** @see https://alpinejs.dev/plugins/mask#x-mask */
+Alpine.plugin(mask)
+
+window._ = require('lodash');
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
