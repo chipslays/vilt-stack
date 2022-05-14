@@ -3,6 +3,14 @@
 </p>
 
 <p align="center">
+    <img src="https://img.shields.io/badge/Vue.js-v3-32a87d?style=flat&logo=vue.js">
+    <img src="https://img.shields.io/badge/Inertia.js-v0.6.0-c852ff?style=flat&logo=inertia.js">
+    <img src="https://img.shields.io/badge/Laravel-v9-FF2D20?style=flat&logo=laravel">
+    <img src="https://img.shields.io/badge/TailwindCSS-v3-05acff?style=flat&logo=tailwindcss">
+    <img src="https://img.shields.io/badge/Alpine.js-v3-4bbdbf?style=flat&logo=alpine.js">
+</p>
+
+<p align="center">
     An easy way to start developing with the VILT stack.
 </p>
 
