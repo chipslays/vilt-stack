@@ -15,8 +15,6 @@ createInertiaApp({
     },
     async setup({ el, App, props, plugin }) {
         const app = createApp({ render: () => h(App, props) })
-            .use(plugin)
-            .use(createPinia())
             .mixin({
                 methods: {
                     route: window.route,
@@ -25,8 +23,9 @@ createInertiaApp({
                         return count + ' ' + words[ (count % 100 > 4 && count % 100 < 20) ? 2 : cases[ Math.min(count % 10, 5)] ];
                     },
                 },
-            }
-        );
+            })
+            .use(plugin)
+            .use(createPinia());
 
         app.config.globalProperties.$alpine = window.Alpine;
 
