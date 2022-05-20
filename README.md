@@ -15,7 +15,7 @@
 </p>
 
 ## Features
-- [Vue.js 3](https://vuejs.org/) ([Pinia](https://pinia.vuejs.org/))
+- [Vue.js 3](https://vuejs.org/) ([Pinia](https://pinia.vuejs.org/), [VueUse](https://vueuse.org/), [Collect.js](https://collect.js.org/), [Toastification](https://vue-toastification.maronato.dev/))
 - [Inertia.js](https://inertiajs.com/) (SPA)
 - [Laravel 9](https://laravel.com/)
 - [TailwindCSS](https://tailwindcss.com/) ([Typography](https://github.com/tailwindlabs/tailwindcss-typography), [Forms](https://github.com/tailwindlabs/tailwindcss-forms), [Animate](https://github.com/jamiebuilds/tailwindcss-animate))
