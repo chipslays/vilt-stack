@@ -28,6 +28,8 @@ createInertiaApp({
             .use(createPinia());
 
         app.config.globalProperties.$alpine = window.Alpine;
+        app.config.globalProperties.$collect = window.collect;
+        app.config.globalProperties.$axios = window.axios;
 
         await app.mount(el);
 

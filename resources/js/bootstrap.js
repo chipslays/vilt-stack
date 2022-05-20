@@ -13,6 +13,9 @@ Alpine.plugin(mask)
 
 window._ = require('lodash');
 
+/** @see https://collect.js.org */
+window.collect = require('collect.js');
+
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
