@@ -13,7 +13,6 @@
 <script setup>
 import Logo from "@/Components/Logo.vue";
 import Navbar from "@/Components/Navbar.vue";
-</script>
+import collect from 'collect.js';
 
-<style lang="postcss" scoped>
-</style>
+</script>

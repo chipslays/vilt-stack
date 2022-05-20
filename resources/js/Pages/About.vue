@@ -14,6 +14,3 @@
 import Logo from "@/Components/Logo.vue";
 import Navbar from "@/Components/Navbar.vue";
 </script>
-
-<style lang="postcss" scoped>
-</style>

@@ -12,6 +12,3 @@
 <script setup>
 import { Link } from "@inertiajs/inertia-vue3";
 </script>
-
-<style lang="postcss" scoped>
-</style>

@@ -14,6 +14,3 @@ defineProps({
     title: String,
 });
 </script>
-
-<style lang="postcss" scoped>
-</style>
