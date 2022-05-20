@@ -8,20 +8,16 @@
     </div>
 </template>
 
-<script setup>
-
-</script>
-
 <style lang="postcss" scoped>
-.container {
-    @apply flex justify-center;
-}
+    .container {
+        @apply flex justify-center;
+    }
 
-.wrapper {
-    @apply text-white bg-black rounded-2xl py-6 px-8 cursor-default select-none;
-}
+    .wrapper {
+        @apply text-white bg-black rounded-2xl py-6 px-8 cursor-default select-none;
+    }
 
-.logo {
-    @apply text-7xl font-black tracking-widest;
-}
+    .logo {
+        @apply text-7xl font-black tracking-widest;
+    }
 </style>

@@ -11,6 +11,6 @@
 </template>
 
 <script setup>
-import Logo from "@/Components/Logo.vue";
-import Navbar from "@/Components/Navbar.vue";
+import Logo from '@/Components/Logo.vue';
+import Navbar from '@/Components/Navbar.vue';
 </script>
