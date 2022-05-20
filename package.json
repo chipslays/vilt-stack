@@ -33,6 +33,7 @@
         "alpinejs": "^3.10.2",
         "collect.js": "^4.33.0",
         "pinia": "^2.0.14",
-        "vue": "^3.2.33"
+        "vue": "^3.2.33",
+        "vue-toastification": "^2.0.0-rc.5"
     }
 }

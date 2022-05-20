@@ -5,6 +5,8 @@ import { createPinia } from 'pinia';
 import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
 import Layout from '@/Shared/Layout';
+import Toast, { useToast } from 'vue-toastification';
+import 'vue-toastification/dist/index.css';
 
 createInertiaApp({
     title: title => title,
@@ -25,17 +27,24 @@ createInertiaApp({
                 },
             })
             .use(plugin)
+            .use(Toast, {
+                maxToasts: 10,
+                newestOnTop: true,
+            })
             .use(createPinia());
 
         app.config.globalProperties.$alpine = window.Alpine;
         app.config.globalProperties.$collect = window.collect;
         app.config.globalProperties.$axios = window.axios;
+        app.config.globalProperties.$toast = useToast();
 
         await app.mount(el);
 
         return app;
     },
 });
+
+window.toast = useToast();
 
 InertiaProgress.init({
     delay: 250,

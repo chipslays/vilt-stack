@@ -11,8 +11,11 @@
 </template>
 
 <script setup>
-import Logo from "@/Components/Logo.vue";
-import Navbar from "@/Components/Navbar.vue";
-import collect from 'collect.js';
+import Logo from '@/Components/Logo.vue';
+import Navbar from '@/Components/Navbar.vue';
+import { nextTick } from '@vue/runtime-core';
 
+nextTick(() => {
+    toast.info('Notification text');
+});
 </script>
