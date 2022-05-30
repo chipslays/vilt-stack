@@ -13,13 +13,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     @routes
-
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet" />
     <script src="{{ mix('/js/app.js') }}" defer></script>
     @inertiaHead
 </head>
 
-<body class="antialiased">
+<body class="selection:text-white selection:bg-black antialiased">
     @inertia
 </body>
 

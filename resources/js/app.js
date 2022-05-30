@@ -33,10 +33,11 @@ createInertiaApp({
             })
             .use(createPinia());
 
-        app.config.globalProperties.$alpine = window.Alpine;
         app.config.globalProperties.$collect = window.collect;
+        app.config.globalProperties.$alpine = window.Alpine;
         app.config.globalProperties.$axios = window.axios;
         app.config.globalProperties.$toast = useToast();
+        app.config.globalProperties.$lodash = window._;
 
         await app.mount(el);
 
