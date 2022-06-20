@@ -26,9 +26,9 @@
 
 #### Auto installation using a script:
 
-```bash
-php install.php
-```
+1. Clone this repo
+2. `php install.php`
+3. Enjoy 🤤
 
 #### Manual installation:
 
@@ -50,9 +50,6 @@ php install.php
 1. `npm run watch`
 2. `php artisan serve`
 3. Go to http://localhost:8000
-
-```php
-echo 'Happy coding!';
-```
+---
 
 **this is my implementation for me, does not pretend to be anything.*
