@@ -43,7 +43,7 @@
 1. `composer create-project laravel/laravel vilt-stack && cd vilt-stack`
 2. `composer require laravel/breeze --dev`
 3. `php artisan breeze:install vue --inertia` (add `--ssr` for SSR instead of SPA)
-4. `npm install`
+4. `npm install && npm run dev`
 
 ## Development
 
